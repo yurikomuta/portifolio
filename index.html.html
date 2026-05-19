@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yuri Komuta — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════════════ -->
+<nav>
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">dev.portfolio</a>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#atuacao">Atuação</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#jornada">Jornada</a></li>
+      <li><a href="#chat">Chat</a></li>
+      <li><a href="#feedbacks">Feedbacks</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══════════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-circle c1"></div>
+  <div class="hero-bg-circle c2"></div>
+  <div class="hero-bg-circle c3"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="dot"></div>
+        <span class="label">Disponível para novos projetos</span>
+      </div>
+      <h1 class="hero-h1">
+        Yuri Komuta<br>
+        Developer &amp; <em>IA</em>
+      </h1>
+      <p class="hero-sub">
+        Transformo ideias em produtos digitais com código limpo,
+        interfaces marcantes e automações inteligentes.
+      </p>
+      <div class="btn-group">
+        <a href="#projects" class="btn btn-primary">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Ver projetos
+        </a>
+        <a href="#chat" class="btn btn-outline">
+          Conversar com IA
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="1" y="1" width="14" height="22" rx="7"/>
+      <circle cx="8" cy="7" r="2" fill="currentColor"/>
+    </svg>
+    scroll
+  </div>
+</section>
+
+<!-- ═══ SOBRE ═══════════════════════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid reveal">
+      <div class="about-file">
+        <div class="file-titlebar">
+          <div class="file-dot fd-red"></div>
+          <div class="file-dot fd-yellow"></div>
+          <div class="file-dot fd-green"></div>
+          <span style="margin-left:8px">about_me.json</span>
+        </div>
+        <div class="file-body">
+          <div class="file-line"><span class="key">"nome"</span>: <span class="str">"Yuri Komuta"</span>,</div>
+          <div class="file-line"><span class="key">"localização"</span>: <span class="str">"São Paulo — SP, Brasil"</span>,</div>
+          <div class="file-line"><span class="key">"experiência"</span>: <span class="str">"desde de 2011"</span>,</div>
+          <div class="file-line"><span class="key">"foco"</span>: [</div>
+          <div class="file-line" style="padding-left:16px"><span class="str">"Full Stack"</span>,</div>
+          <div class="file-line" style="padding-left:16px"><span class="str">"IA Aplicada"</span>,</div>
+          <div class="file-line" style="padding-left:16px"><span class="str">"Automação"</span></div>
+          <div class="file-line">],</div>
+          <div class="file-line"><span class="key">"disponível"</span>: <span class="num">true</span>,</div>
+          <div class="file-line"><span class="comment">// aberto para freelance e projetos</span></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="label" style="margin-bottom:14px">// sobre mim</div>
+        <h3>De quem estamos falando?</h3>
+        <p>
+          Desenvolvedor apaixonado por criar soluções que realmente funcionam.
+          Combino experiência em frontend moderno com backend robusto e
+          automações com IA para entregar produtos completos.
+        </p>
+        <p>
+          Atuo em projetos desafiadores, de sistemas ERP a plataformas de
+          automação, sempre com foco em performance, escalabilidade e
+          experiência do usuário.
+        </p>
+        <div class="about-highlight">
+          <div class="about-stat">
+            <span class="num">5+</span>
+            <span class="desc">anos de experiência em desenvolvimento</span>
+          </div>
+          <div class="about-stat">
+            <span class="num">20+</span>
+            <span class="desc">projetos entregues com sucesso</span>
+          </div>
+          <div class="about-stat">
+            <span class="num">∞</span>
+            <span class="desc">vontade de continuar evoluindo</span>
+          </div>
+        </div>
+        <div class="pill-row" style="margin-top:24px">
+          <span class="tag">Atenção aos detalhes</span>
+          <span class="tag">Trabalho em equipe</span>
+          <span class="tag">Resolução de problemas</span>
+          <span class="tag">Comunicação clara</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJETOS ════════════════════════════════════════════════════ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="label" style="margin-bottom:10px">// projetos</div>
+        <h2 class="section-title">Sistemas reais<br>em <em>produção</em></h2>
+      </div>
+      <a href="#" class="btn btn-outline" style="font-size:13px">Ver todos →</a>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Featured project -->
+      <div class="project-card featured reveal">
+        <div class="project-thumb">
+          <div class="project-thumb-gradient"></div>
+          <span style="font-size:3rem;opacity:.15;">⚡</span>
+          <span class="thumb-label">projeto destacado</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-number">01</span>
+            <span class="project-year">2025</span>
+          </div>
+          <h3 class="project-name">Detecção de Fraudes com Autoencoder</h3>
+          <p class="project-desc">Detecção de Fraudes transações financeiras com redes neurais com embeddings de dados anômalos.</p>
+          <div class="pill-row" style="margin-bottom:16px">
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Seaborn</span>
+          </div>
+          <!--<div class="psr">
+            <div class="psr-item">
+              <div class="psr-badge p">P</div>
+              <span class="psr-text">Centenas de mensagens enviadas manualmente, uma por uma, sem personalização.</span>
+            </div>
+            <div class="psr-item">
+              <div class="psr-badge s">S</div>
+              <span class="psr-text">Plataforma online com processamento de planilhas, disparo em lotes e delay configurável.</span>
+            </div>
+            <div class="psr-item">
+              <div class="psr-badge r">R</div>
+              <span class="psr-text">Dezenas de horas economizadas a cada campanha, equipe livre para outras tarefas.</span>
+            </div>
+          </div>-->
+        </div>
+      </div>
+
+      <!-- Cards menores -->
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <div class="project-thumb-gradient"></div>
+          <span style="font-size:2.5rem;opacity:.15;">🏢</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-number">02</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3 class="project-name">ERP de Startup</h3>
+          <p class="project-desc">Sistema ERP completo desenvolvido solo: do servidor ao deploy, com integração de pagamentos e comunicação.</p>
+          <div class="pill-row">
+            <span class="tag">Next.js</span>
+            <span class="tag">Prisma</span>
+            <span class="tag">Stripe</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <div class="project-thumb-gradient"></div>
+          <span style="font-size:2.5rem;opacity:.15;">📊</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-number">03</span>
+            <span class="project-year">2025</span>
+          </div>
+          <h3 class="project-name">Ferramenta de BI com IA</h3>
+          <p class="project-desc">Dashboard analítico que cruza dados operacionais em tempo real com análise por inteligência artificial.</p>
+          <div class="pill-row">
+            <span class="tag">Redash</span>
+            <span class="tag">Node</span>
+            <span class="tag">Motion</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ATUAÇÃO ══════════════════════════════════════════════════════ -->
+<section id="atuacao" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="label" style="margin-bottom:10px">// atuação</div>
+        <h2 class="section-title">O que eu <em>faço</em></h2>
+      </div>
+    </div>
+    <div class="atuacao-grid">
+      <div class="atuacao-card reveal">
+        <div class="atuacao-icon">🤖</div>
+        <h3>Sistemas com IA</h3>
+        <p>Automação e agentes que executam tarefas reais, integrados ao fluxo do seu negócio.</p>
+      </div>
+      <div class="atuacao-card reveal">
+        <div class="atuacao-icon">🏗️</div>
+        <h3>Arquitetura Web</h3>
+        <p>Base técnica sólida para aplicações rápidas, seguras e escaláveis.</p>
+      </div>
+      <div class="atuacao-card reveal">
+        <div class="atuacao-icon">⚡</div>
+        <h3>Otimização de Processos</h3>
+        <p>Redução de gargalos operacionais com tecnologia aplicada ao problema real.</p>
+      </div>
+      <div class="atuacao-card reveal">
+        <div class="atuacao-icon">🎓</div>
+        <h3>Formação Técnica</h3>
+        <p>Ensino profissionalizante conectando prática real ao mercado de trabalho.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ STACK ════════════════════════════════════════════════════════ -->
+<section id="stack" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="label" style="margin-bottom:10px">// ferramentas</div>
+        <h2 class="section-title">Stack que uso no <em>dia a dia</em></h2>
+      </div>
+    </div>
+    <div class="stack-tabs reveal" id="stackTabs">
+      <button class="stack-tab active" data-cat="all">Todos</button>
+      <button class="stack-tab" data-cat="lang">Linguagens</button>
+      <button class="stack-tab" data-cat="ai">IA &amp; LLMs</button>
+      <button class="stack-tab" data-cat="auto">Automação</button>
+      <button class="stack-tab" data-cat="infra">Infra &amp; Dados</button>
+    </div>
+    <div class="stack-grid reveal" id="stackGrid">
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>JavaScript</div>
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>TypeScript</div>
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Python</div>
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>React</div>
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Next.js</div>
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Tailwind CSS</div>
+      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Node.js</div>
+      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>OpenAI API</div>
+      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>Google Gemini</div>
+      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>LangChain</div>
+      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>Vercel AI SDK</div>
+      <div class="stack-item si-auto" data-cat="auto"><div class="si-dot"></div>n8n</div>
+      <div class="stack-item si-auto" data-cat="auto"><div class="si-dot"></div>Webhooks</div>
+      <div class="stack-item si-auto" data-cat="auto"><div class="si-dot"></div>REST APIs</div>
+      <div class="stack-item si-infra" data-cat="infra"><div class="si-dot"></div>PostgreSQL</div>
+      <div class="stack-item si-infra" data-cat="infra"><div class="si-dot"></div>Docker</div>
+      <div class="stack-item si-infra" data-cat="infra"><div class="si-dot"></div>Prisma</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ JORNADA ══════════════════════════════════════════════════════ -->
+<section id="jornada" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="label" style="margin-bottom:10px">// trajetória</div>
+        <h2 class="section-title">Minha <em>Jornada</em></h2>
+      </div>
+    </div>
+    <div class="timeline reveal">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2008</div>
+        <div class="tl-title">Monitora Laboratório de Informática</div>
+        <div class="tl-company">Acessa Escola</div>
+        <div class="tl-desc">Primeiro contato estruturado com tecnologia. Formação técnica em hardware, redes e programação básica — a base de tudo.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2016</div>
+        <div class="tl-title">Suporte e Infraestrutura</div>
+        <div class="tl-company">HPE</div>
+        <div class="tl-desc">Atuação em projetos de larga escala, infraestrutura corporativa e sistemas críticos em ambiente enterprise.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2019</div>
+        <div class="tl-title">Desenvolvedor Front-End</div>
+        <div class="tl-company">Empresa X</div>
+        <div class="tl-desc">Transição para desenvolvimento web, criando interfaces funcionais com React e ecossistema moderno.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2022</div>
+        <div class="tl-title">Desenvolvedor Full Stack Freelancer</div>
+        <div class="tl-company">Autônomo</div>
+        <div class="tl-desc">Projetos completos: do backend ao deploy, ERPs, landing pages, apps mobile e sistemas de automação.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2025 — hoje</div>
+        <div class="tl-title">IA Aplicada &amp; Automação</div>
+        <div class="tl-company">Supernova / FIAP</div>
+        <div class="tl-desc">Foco em sistemas com IA real em produção e formação contínua em agentes e LLMs aplicados a negócios.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CHAT ═════════════════════════════════════════════════════════ -->
+<section id="chat" class="section" style="background:var(--surface2)">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="label" style="margin-bottom:10px">// chat com IA</div>
+        <h2 class="section-title">Quer saber mais?<br>Converse com <em>Ada!</em></h2>
+      </div>
+    </div>
+    <div class="chat-wrapper reveal">
+      <div class="chat-header">
+        <div class="chat-avatar">👩‍💻</div>
+        <div class="chat-bot-info">
+          <strong>Ada  — Assistente de IA</strong>
+          <span>Online agora</span>
+        </div>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="msg ai">
+          <div class="msg-avatar">👩‍💻</div>
+          <div>
+            <div class="msg-bubble">Olá! Sou a Ada , assistente do portfólio. Posso te contar tudo sobre meu criador — projetos, habilidades, experiências. O que você quer saber? 😊</div>
+            <div class="msg-time">agora</div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-input-row">
+        <input class="chat-input" id="chatInput" type="text" placeholder="Pergunte sobre projetos, habilidades..."/>
+        <button class="chat-send" id="chatSendBtn" title="Enviar">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2L15 22 11 13 2 9l20-7z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FEEDBACKS ════════════════════════════════════════════════════ -->
+<section id="feedbacks" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="label" style="margin-bottom:10px">// depoimentos</div>
+        <h2 class="section-title">O que dizem sobre<br>meu <em>trabalho</em></h2>
+      </div>
+    </div>
+    <div class="feedbacks-scroll reveal">
+      <div class="feedback-card">
+        <div class="feedback-quote">"</div>
+        <p class="feedback-text">Tivemos a felicidade de contar com a Yuri na área de Growth, onde seu pensamento criativo e seu conhecimento de soluções inovadoras foram determinantes para vencermos grandes desafios. Com um olhar analítico aguçado, ela se desenvolveu com soltura em diferentes linguagens e ferramentas, como Python, SQL, R, Looker Studio e Power BI, aplicando-as de forma eficaz para organizar os dados e escalar nossas campanhas. Recomendo fortemente a Yuri para qualquer operação que valorize a criatividade combinada com maestria em ciência de dados.</p>
+        <div class="feedback-author">
+          <div class="feedback-initials">VS</div>
+          <div>
+            <strong>Pettersom Paiva</strong>
+            <span>Performance Marketing & Business Development Expert | Innovator in Travel & Commerce Media | Cross-Border Executive | AI-driven Growth enthusiast</span>
+          </div>
+        </div>
+      </div>
+      <div class="feedback-card">
+        <div class="feedback-quote">"</div>
+        <p class="feedback-text">Passava só o escopo, a ideia bruta, e ele transformava tudo em algo visualmente bonito e bem estruturado. Em poucos dias, tínhamos uma aplicação moderna e organizada.</p>
+        <div class="feedback-author">
+          <div class="feedback-initials">MO</div>
+          <div>
+            <strong>Marlon Oliveira</strong>
+            <span>Coordenador de Redes</span>
+          </div>
+        </div>
+      </div>
+      <div class="feedback-card">
+        <div class="feedback-quote">"</div>
+        <p class="feedback-text">Trabalhar com ele foi sempre muito tranquilo. Implementou melhorias que otimizaram muito nosso fluxo. Sabe transformar problemas do dia a dia em soluções técnicas eficientes.</p>
+        <div class="feedback-author">
+          <div class="feedback-initials">VA</div>
+          <div>
+            <strong>Vinícius Alves</strong>
+            <span>Coordenador de Agendamento</span>
+          </div>
+        </div>
+      </div>
+      <div class="feedback-card">
+        <div class="feedback-quote">"</div>
+        <p class="feedback-text">Sua dedicação e criatividade farão toda a diferença. Continue explorando e desenvolvendo suas habilidades — o céu é o limite! 🚀</p>
+        <div class="feedback-author">
+          <div class="feedback-initials">MG</div>
+          <div>
+            <strong>Marcio Guimarães</strong>
+            <span>ex-Coordenador Athon Telecom</span>
+          </div>
+        </div>
+      </div>
+      <div class="feedback-card">
+        <div class="feedback-quote">"</div>
+        <p class="feedback-text">Cara, ele é bom, ele é bom... já pensou em trabalhar comigo? (e detalhe: ele já está trabalhando comigo!)</p>
+        <div class="feedback-author">
+          <div class="feedback-initials">OC</div>
+          <div>
+            <strong>Oseias Cruz</strong>
+            <span>CEO — Athon Networks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTATO ══════════════════════════════════════════════════════ -->
+<section id="contact" class="section" style="background:var(--surface)">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <div class="label" style="margin-bottom:14px">// contato</div>
+        <h2>Vamos trabalhar<br><em>juntos?</em></h2>
+        <p>Aberto a projetos freelance, parcerias técnicas e colaborações que tragam desafios reais.</p>
+        <div class="contact-links">
+          <a href="https://wa.me/5511932270180" class="contact-link">
+            <div class="contact-link-icon">💬</div>
+            WhatsApp — resposta rápida
+          </a>
+          <a href="https://linkedin.com" class="contact-link">
+            <div class="contact-link-icon">in</div>
+            LinkedIn
+          </a>
+          <a href="https://github.com/yurikomuta" class="contact-link">
+            <div class="contact-link-icon" style="font-family:var(--mono);font-size:12px;">GH</div>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <div class="label" style="margin-bottom:20px">// envie uma mensagem</div>
+        <div class="form-field">
+          <label>Nome</label>
+          <input type="text" placeholder="Seu nome"/>
+        </div>
+        <div class="form-field">
+          <label>E-mail</label>
+          <input type="email" placeholder="seu@email.com"/>
+        </div>
+        <div class="form-field">
+          <label>Mensagem</label>
+          <textarea rows="4" placeholder="Me conte sobre seu projeto..."></textarea>
+        </div>
+        <button class="btn btn-primary" style="width:100%;justify-content:center">
+          Enviar mensagem
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <span class="footer-name">© Komuta</span>
+      <span class="footer-copy">Feito com dedicação em São Paulo, Brasil 🌟</span>
+      <div class="footer-socials">
+        <a href="https://github.com/yurikomuta" class="footer-social" title="GitHub">GH</a>
+        <a href="#" class="footer-social" title="LinkedIn">in</a>
+        <a href="#" class="footer-social" title="Instagram">ig</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
