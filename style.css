@@ -320,6 +320,10 @@
       position: absolute; inset: 0;
       background: linear-gradient(135deg, rgba(78,143,191,.14), rgba(86,117,140,.10));
     }
+
+    .project-thumb img{
+      width: 100%;
+    }
     .project-body { padding: 20px 22px 24px; }
     .project-meta {
       display: flex; align-items: center; justify-content: space-between;
