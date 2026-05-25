@@ -452,7 +452,11 @@
 
     /* ─── JORNADA ─────────────────────────────────────────────── */
     #jornada { background: var(--surface); }
-    .timeline { position: relative; padding-left: 28px; }
+    .timeline { 
+      position: relative;
+      padding-left: 28px; 
+    }
+
     .timeline::before {
       content: '';
       position: absolute; top: 8px; bottom: 8px; left: 0;
