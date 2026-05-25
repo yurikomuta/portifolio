@@ -1,527 +1,628 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yuri Komuta — Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
 
-<!-- ═══ NAV ═══════════════════════════════════════════════════════ -->
-<nav>
-  <div class="nav-inner">
-    <a href="#hero" class="nav-logo">dev.portfolio</a>
-    <ul class="nav-links">
-      <li><a href="#about">Sobre</a></li>
-      <li><a href="#projects">Projetos</a></li>
-      <li><a href="#atuacao">Atuação</a></li>
-      <li><a href="#stack">Stack</a></li>
-      <li><a href="#jornada">Jornada</a></li>
-      <li><a href="#chat">Chat</a></li>
-      <li><a href="#feedbacks">Feedbacks</a></li>
-      <li><a href="#contact">Contato</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- ═══ HERO ═══════════════════════════════════════════════════════ -->
-<section id="hero">
-  <div class="hero-bg-circle c1"></div>
-  <div class="hero-bg-circle c2"></div>
-  <div class="hero-bg-circle c3"></div>
-  <div class="container">
-    <div class="hero-content">
-      <div class="hero-eyebrow">
-        <div class="dot"></div>
-        <span class="label">Disponível para novos projetos</span>
-      </div>
-      <h1 class="hero-h1">
-        Yuri Komuta<br>
-        Developer &amp; <em>IA</em>
-      </h1>
-      <p class="hero-sub">
-        Transformo ideias em produtos digitais com código limpo,
-        interfaces marcantes e automações inteligentes.
-      </p>
-      <div class="btn-group">
-        <a href="#projects" class="btn btn-primary">
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          Ver projetos
-        </a>
-        <a href="#chat" class="btn btn-outline">
-          Conversar com IA
-        </a>
-      </div>
+  <!-- ═══ NAV ═══════════════════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">dev.portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#atuacao">Atuação</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#jornada">Jornada</a></li>
+        <li><a href="#chat">Chat</a></li>
+        <li><a href="#feedbacks">Feedbacks</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
     </div>
-  </div>
-  <div class="hero-scroll">
-    <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.5">
-      <rect x="1" y="1" width="14" height="22" rx="7"/>
-      <circle cx="8" cy="7" r="2" fill="currentColor"/>
-    </svg>
-    scroll
-  </div>
-</section>
+  </nav>
 
-<!-- ═══ SOBRE ═══════════════════════════════════════════════════════ -->
-<section id="about" class="section">
-  <div class="container">
-    <div class="about-grid reveal">
-      <div class="about-file">
-        <div class="file-titlebar">
-          <div class="file-dot fd-red"></div>
-          <div class="file-dot fd-yellow"></div>
-          <div class="file-dot fd-green"></div>
-          <span style="margin-left:8px">about_me.json</span>
+  <!-- ═══ HERO ═══════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-circle c1"></div>
+    <div class="hero-bg-circle c2"></div>
+    <div class="hero-bg-circle c3"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <div class="dot"></div>
+          <span class="label">Disponível para novos projetos</span>
         </div>
-        <div class="file-body">
-          <div class="file-line"><span class="key">"nome"</span>: <span class="str">"Yuri Komuta"</span>,</div>
-          <div class="file-line"><span class="key">"localização"</span>: <span class="str">"São Paulo — SP, Brasil"</span>,</div>
-          <div class="file-line"><span class="key">"experiência"</span>: <span class="str">"desde de 2011"</span>,</div>
-          <div class="file-line"><span class="key">"foco"</span>: [</div>
-          <div class="file-line" style="padding-left:16px"><span class="str">"Full Stack"</span>,</div>
-          <div class="file-line" style="padding-left:16px"><span class="str">"IA Aplicada"</span>,</div>
-          <div class="file-line" style="padding-left:16px"><span class="str">"Automação"</span></div>
-          <div class="file-line">],</div>
-          <div class="file-line"><span class="key">"disponível"</span>: <span class="num">true</span>,</div>
-          <div class="file-line"><span class="comment">// aberto para freelance e projetos</span></div>
-        </div>
-      </div>
-      <div class="about-text">
-        <div class="label" style="margin-bottom:14px">// sobre mim</div>
-        <h3>De quem estamos falando?</h3>
-        <p>
-          Desenvolvedora de soluções de IA e Engenheira de Software, com mestrado em andamento em Inteligência Artificial, unindo forte experiência em desenvolvimento de aplicações e facilitação técnica. Minha trajetória combina expertise técnica Python, SQL, R, Power BI, Looker, Cloud, HTML, CSS, JS e no ecossistema de ferramentas de IA (assistentes de código, n8n, LLMs), com foco na criação de provas de conceito (POCs), automação de processos e na escalabilidade de soluções.
+        <h1 class="hero-h1">
+          Yuri Komuta<br>
+          Developer &amp; <em>IA</em>
+        </h1>
+        <p class="hero-sub">
+          Transformo ideias em produtos digitais com código limpo,
+          interfaces marcantes e automações inteligentes.
         </p>
-        <p>
-          Especialista em quebrar barreiras de aprendizado tecnológico, utilizando a experiência em docência técnica para criar metodologias de evangelização de IA, capacitando equipes e comprovando impacto através da análise de dados e dashboards analíticos. 
-
-        </p>
-        <div class="about-highlight">
-          <div class="about-stat">
-            <span class="desc">Desenvolvendo desde de </span>
-            <span class="num">2011</span>            
-          </div>
-          <div class="about-stat">
-            <span class="num">20+</span>
-            <span class="desc">projetos entregues com sucesso</span>
-          </div>
-          <div class="about-stat">
-            <span class="num">∞</span>
-            <span class="desc">vontade de continuar evoluindo</span>
-          </div>
-        </div>
-        <div class="pill-row" style="margin-top:24px">
-          <span class="tag">Atenção aos detalhes</span>
-          <span class="tag">Trabalho em equipe</span>
-          <span class="tag">Resolução de problemas</span>
-          <span class="tag">Comunicação clara</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ PROJETOS ════════════════════════════════════════════════════ -->
-<section id="projects" class="section">
-  <div class="container">
-    <div class="section-header reveal">
-      <div>
-        <div class="label" style="margin-bottom:10px">// projetos</div>
-        <h2 class="section-title">Sistemas reais<br>em <em>produção</em></h2>
-      </div>
-      <a href="#" class="btn btn-outline" style="font-size:13px">Ver todos →</a>
-    </div>
-
-    <div class="projects-grid" >
-      <!-- Featured project -->
-      <div class="project-card featured reveal">
-        <div class="project-thumb">
-          <div class="project-thumb-gradient">
-            <img src="assets\fraude.webp" alt="capa-projeto-de-detecção-de-fraudes">
-          </div>
-          <span style="font-size:3rem;opacity:.15;"></span>
-          <span class="thumb-label">projeto destacado</span>
-        </div>
-        <div class="project-body">
-          <div class="project-meta">
-            <span class="project-number">01</span>
-            <span class="project-year">2025</span>
-          </div>
-          <h3 class="project-name">Sistema de Renegociação e Cobranças Ativas</h3>
-          <p class="project-desc"> Uma plataforma web desenvolvida para otimizar processos de cobranças ativas e renegociação de dívidas em nome de instituições financeiras brasileiras. A solução integra uma camada de <b>processamento de linguagem natural </b> com uma arquitetura web tradicional, automatizando e padronizando interações com devedores através de um sistema de diálogo orientado por máquina de estados.</p>
-          <div class="pill-row" style="margin-bottom:16px">
-            <span class="tag">LangChain</span>
-            <span class="tag">Gemini</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">Python</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Cards menores -->
-      <div class="project-card reveal">
-        <div class="project-thumb">
-          <div class="project-thumb-gradient"></div>
-          <span style="font-size:2.5rem;opacity:.15;">🏢</span>
-        </div>
-        <div class="project-body">
-          <div class="project-meta">
-            <span class="project-number">02</span>
-            <span class="project-year">2026</span>
-          </div>
-          <h3 class="project-name">ERP de Startup</h3>
-          <p class="project-desc">Sistema ERP completo desenvolvido solo: do servidor ao deploy, com integração de pagamentos e comunicação.</p>
-          <div class="pill-row">
-            <span class="tag">Next.js</span>
-            <span class="tag">Prisma</span>
-            <span class="tag">Stripe</span>
-            <span class="tag">Docker</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card reveal">
-        <div class="project-thumb">
-          <div class="project-thumb-gradient"></div>
-          <span style="font-size:2.5rem;opacity:.15;">📊</span>
-        </div>
-        <div class="project-body">
-          <div class="project-meta">
-            <span class="project-number">03</span>
-            <span class="project-year">2025</span>
-          </div>
-          <h3 class="project-name">Ferramenta de BI com IA</h3>
-          <p class="project-desc">Dashboard analítico que cruza dados operacionais em tempo real com análise por inteligência artificial.</p>
-          <div class="pill-row">
-            <span class="tag">Redash</span>
-            <span class="tag">Node</span>
-            <span class="tag">Motion</span>
-            <span class="tag">SQL</span>
-          </div>
-        </div>       
-      </div>
-
-      <div class="project-card reveal">
-        <div class="project-thumb">
-          <div class="project-thumb-gradient">
-            <img src="assets\artista-plastica-aline-bispo.png" alt="capa-projeto-de-detecção-de-fraudes">
-          </div>
-          <span style="font-size:2.5rem;opacity:.15;">📊</span>
-        </div>
-        <div class="project-body">
-          <div class="project-meta">
-            <span class="project-number">04</span>
-            <span class="project-year">2024</span>
-          </div>
-          <h3 class="project-name">Multi Artísta Aline Bispo</h3>
-          <p class="project-desc">Orquestração técnica do portfólio da multiartista Aline Bispo, gerenciando a entrega da plataforma em Next.js e Tailwind com infraestrutura na AWS.</p>
-          <div class="pill-row">
-            <span class="tag">Nextjs</span>
-            <span class="tag">Tailwind</span> 
-            <span class="tag">AWS</span> 
-            <span class="tag">
-              <b><a href="https://alinebispo.art/" target="_blank" >Deploy</a></b>
-            </span>
-          </div>
-        </div>       
-      </div>
-
-
-            <div class="project-card featured reveal">
-        <div class="project-thumb">
-          <div class="project-thumb-gradient">
-            <img src="assets\fraude.webp" alt="capa-projeto-de-detecção-de-fraudes">
-          </div>
-          <span style="font-size:3rem;opacity:.15;"></span>
-          <span class="thumb-label">projeto destacado</span>
-        </div>
-        <div class="project-body">
-          <div class="project-meta">
-            <span class="project-number">01</span>
-            <span class="project-year">2025</span>
-          </div>
-          <h3 class="project-name">Detecção de Fraudes com Autoencoder</h3>
-          <p class="project-desc">Detecção de Fraudes transações financeiras com redes neurais com embeddings de dados anômalos.</p>
-          <div class="pill-row" style="margin-bottom:16px">
-            <span class="tag">TensorFlow</span>
-            <span class="tag">Scikit-learn</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">Seaborn</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ ATUAÇÃO ══════════════════════════════════════════════════════ -->
-<section id="atuacao" class="section">
-  <div class="container">
-    <div class="section-header reveal">
-      <div>
-        <div class="label" style="margin-bottom:10px">// atuação</div>
-        <h2 class="section-title">O que eu <em>faço</em></h2>
-      </div>
-    </div>
-    <div class="atuacao-grid">
-      <div class="atuacao-card reveal">
-        <div class="atuacao-icon">
-          <img src="assets\artificial-inteligence-agenerative-.png" alt="Chatbot icons created by LAFS - Flaticon">
-        </div>
-        <h3>Sistemas com IA</h3>
-        <p>Automação e agentes que executam tarefas reais, integrados ao fluxo do seu negócio.</p>
-      </div>
-      <div class="atuacao-card reveal">
-        <div class="atuacao-icon">
-          <img src="assets\arquitetura.png" alt="Arquitetura ícones criados por Muhammad Ali - Flaticon">
-        </div>
-        <h3>Arquitetura Web</h3>
-        <p>Base técnica sólida para aplicações rápidas, seguras e escaláveis.</p>
-      </div>
-      <div class="atuacao-card reveal">
-        <div class="atuacao-icon">
-          <img src="assets\processo.png" alt="Processo ícones criados por Eucalyp - Flaticon">
-        </div>
-        <h3>Otimização de Processos</h3>
-        <p>Redução de gargalos operacionais com tecnologia aplicada ao problema real.</p>
-      </div>
-      <div class="atuacao-card reveal">
-        <div class="atuacao-icon">
-          <img src="assets\educacao.png" title="Educação ícones criados por amonrat rungreangfangsai - Flaticon">
-        </div>
-        <h3>Formação Técnica</h3>
-        <p>Ensino profissionalizante conectando prática real ao mercado de trabalho.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ STACK ════════════════════════════════════════════════════════ -->
-<section id="stack" class="section">
-  <div class="container">
-    <div class="section-header reveal">
-      <div>
-        <div class="label" style="margin-bottom:10px">// ferramentas</div>
-        <h2 class="section-title">Stack que uso no <em>dia a dia</em></h2>
-      </div>
-    </div>
-    <div class="stack-tabs reveal" id="stackTabs">
-      <button class="stack-tab active" data-cat="all">Todos</button>
-      <button class="stack-tab" data-cat="lang">Linguagens</button>
-      <button class="stack-tab" data-cat="ai">IA &amp; LLMs</button>
-      <button class="stack-tab" data-cat="auto">Automação</button>
-      <button class="stack-tab" data-cat="infra">Infra &amp; Dados</button>
-    </div>
-    <div class="stack-grid reveal" id="stackGrid">
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>JavaScript</div>
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>TypeScript</div>
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Python</div>
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>React</div>
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Next.js</div>
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Tailwind CSS</div>
-      <div class="stack-item si-lang" data-cat="lang"><div class="si-dot"></div>Node.js</div>
-      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>OpenAI API</div>
-      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>Google Gemini</div>
-      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>LangChain</div>
-      <div class="stack-item si-ai" data-cat="ai"><div class="si-dot"></div>Claude</div>
-      <div class="stack-item si-auto" data-cat="auto"><div class="si-dot"></div>n8n</div>
-      <div class="stack-item si-auto" data-cat="auto"><div class="si-dot"></div>Webhooks</div>
-      <div class="stack-item si-auto" data-cat="auto"><div class="si-dot"></div>REST APIs</div>
-      <div class="stack-item si-infra" data-cat="infra"><div class="si-dot"></div>PostgreSQL</div>
-      <div class="stack-item si-infra" data-cat="infra"><div class="si-dot"></div>Docker</div>
-      <div class="stack-item si-infra" data-cat="infra"><div class="si-dot"></div>Prisma</div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ JORNADA ══════════════════════════════════════════════════════ -->
-<section id="jornada" class="section">
-  <div class="container">
-    <div class="section-header reveal">
-      <div>
-        <div class="label" style="margin-bottom:10px">// trajetória</div>
-        <h2 class="section-title">Minha <em>Jornada</em></h2>
-      </div>
-    </div>
-    <div class="timeline reveal">
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-year">2020</div>
-        <div class="tl-title">Consultoria em TI e Engenharia de Software </div>
-        <div class="tl-company">Autônomo</div>
-        <div class="tl-desc">AI Engineering & LLMs: Desenvolvimento end-to-end de soluções baseadas em IA, incluindo POCs e MVPs com Large Language Models (LLMs). 
-        Software Engineering & System Design: Projeto de arquiteturas escaláveis e modulares, com princípios de Clean Architecture, SOLID e Design Patterns, garantindo manutenibilidade e extensibilidade dos sistemas.
-        Backend Development & APIs: Desenvolvimento de serviços em Python e Javascript. Data Engineering & Automation: Construção de pipelines de dados (ETL/ELT), web scraping e processamento automatizado, reduzindo o esforço operacional em até 60% e aumentando a eficiência na entrega de projetos.
-        AI Systems Integration: Integração de modelos de IA com sistemas corporativos, incluindo ingestão de dados, orquestração de pipelines e deploy de aplicações orientadas a eventos.
-        Data Analytics & Business Impact: Desenvolvimento de dashboards analíticos em Power BI e Looker Studio, definição de KPIs e métricas de ROI, suportando decisões orientadas a dados.
-    </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-year">2021-2025</div>
-        <div class="tl-title">Suporte EaD (Voluntariado)</div>
-        <div class="tl-company">PrograMaria</div>
-        <div class="tl-desc">Auxiliei no ensino técnico em linguagens de programação (Python, Javascript) e resolução de problemas em ambientes de desenvolvimento.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-year">2025</div>
-        <div class="tl-title">Técnico de TI (temporário)</div>
-        <div class="tl-company">UERJ-Universidade do Estado do Rio de Janeiro</div>
-        <div class="tl-desc">Atuação em suporte técnico a professores e alunos, gerenciamento de plataformas virtuais, manutenção de equipamentos e sistemas, além de apoio na execução de cursos online e eventos digitais. Experiência em bancos de dados, produção de conteúdos digitais, acompanhamento de aulas e lives e registro acadêmico em sistemas institucionais.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-year">2025 — hoje</div>
-        <div class="tl-title">Instrutor de Formação Profissional III</div>
-        <div class="tl-company">SENAI</div>
-        <div class="tl-desc">Atuando como Instrutor de Ensino Técnico no curso de Desenvolvimento de Sistemas, lecionando disciplinas como Internet das Coisas (C++), Levantamento de Requisitos, Projetos de Software e Desenvolvimento de Software <b>(Python, NodeJS)</b></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ CHAT ═════════════════════════════════════════════════════════ -->
-<section id="chat" class="section" style="background:var(--surface2)">
-  <div class="container">
-    <div class="section-header reveal">
-      <div>
-        <div class="label" style="margin-bottom:10px">// chat com IA</div>
-        <h2 class="section-title">Quer saber mais?<br>Converse com <em>Ada!</em></h2>
-      </div>
-    </div>
-    <div class="chat-wrapper reveal">
-      <div class="chat-header">
-        <div class="chat-avatar">👩‍💻</div>
-        <div class="chat-bot-info">
-          <strong>Ada  — Assistente de IA</strong>
-          <span>Online agora</span>
-        </div>
-      </div>
-      <div class="chat-body" id="chatBody">
-        <div class="msg ai">
-          <div class="msg-avatar">👩‍💻</div>
-          <div>
-            <div class="msg-bubble">Olá! Sou a Ada , assistente do portfólio. Posso te contar tudo sobre meu criador — projetos, habilidades, experiências. O que você quer saber? 😊</div>
-            <div class="msg-time">agora</div>
-          </div>
-        </div>
-      </div>
-      <div class="chat-input-row">
-        <input class="chat-input" id="chatInput" type="text" placeholder="Pergunte sobre projetos, habilidades..."/>
-        <button class="chat-send" id="chatSendBtn" title="Enviar">
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2L15 22 11 13 2 9l20-7z"/></svg>
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ FEEDBACKS ════════════════════════════════════════════════════ -->
-<section id="feedbacks" class="section">
-  <div class="container">
-    <div class="section-header reveal">
-      <div>
-        <div class="label" style="margin-bottom:10px">// depoimentos</div>
-        <h2 class="section-title">O que dizem sobre<br>meu <em>trabalho</em></h2>
-      </div>
-    </div>
-    <div class="feedbacks-scroll reveal">
-      <div class="feedback-card">
-        <div class="feedback-quote">"</div>
-        <p class="feedback-text">Tivemos a felicidade de contar com a Yuri na área de Growth, onde seu pensamento criativo e seu conhecimento de soluções inovadoras foram determinantes para vencermos grandes desafios. Com um olhar analítico aguçado, ela se desenvolveu com soltura em diferentes linguagens e ferramentas, como Python, SQL, R, Looker Studio e Power BI, aplicando-as de forma eficaz para organizar os dados e escalar nossas campanhas. Recomendo fortemente a Yuri para qualquer operação que valorize a criatividade combinada com maestria em ciência de dados.</p>
-        <div class="feedback-author">
-          <div class="feedback-initials">VS</div>
-          <div>
-            <strong>Pettersom Paiva</strong>
-            <span>Performance Marketing & Business Development Expert | Innovator in Travel & Commerce Media | Cross-Border Executive | AI-driven Growth enthusiast</span>
-          </div>
-        </div>
-      </div>
-      <div class="feedback-card">
-        <div class="feedback-quote">"</div>
-        <p class="feedback-text">Tive o prazer de trabalhar com a Komuta e a sua contribuição foi fundamental para alavancar o nosso blog com seus conhecimentos de SEO. Otimizou nossos posts para aumentar nosso alcance orgânico e melhorar nossa posição nos mecanismos de busca, com excelentes resultados.
-
-A Komuta é extremamente inteligente e tem um super conhecimento em muitos assuntos, que vão muito além da tecnologia. Sua curiosidade e sede de aprendizado fazem dela uma profissional completa, sempre atualizada e atenta às melhores práticas do mercado.
-
-Sua capacidade analítica e disposição para explorar novas soluções, fazem com que ela seja uma peça chave em qualquer equipe de tecnologia!</p>
-        <div class="feedback-author">
-          <div class="feedback-initials">MO</div>
-          <div>
-            <strong>Patrícia Oliveira</strong>
-            <span>Gestão de Projetos | Gestão de Pessoas | Comunicação e Inovação | Analista de Implantação na Confience</span>
-          </div>
-        </div>
-      </div>
-      <div class="feedback-card">
-        <div class="feedback-quote">"</div>
-        <p class="feedback-text">Uma profissional com múltiplos conhecimentos na área de TI, Programação, Marketing Digital, Social Mídia, Plataformas Google, SEO, ou seja, multifacetada.  Por ela ter uma visão macro, apresenta soluções rápidas e eficientes. Questões complexas se tornam fáceis e acessíveis. A Yuri também possui uma ótima comunicação e sempre disposta a ajudar seus colegas de trabalho. Trabalhar ao lado da Yuri é aprender constantemente, ela tem uma facilidade e vontade primordial em ensinar e ajudar.</p>
-        <div class="feedback-author">
-          <div class="feedback-initials">VA</div>
-          <div>
-            <strong>Rafael Grou</strong>
-            <span>Gerente de Marketing Sênior | Performance Digital, Trade & Data-Driven Growth</span>
-          </div>
-        </div>
-      </div>
-      <div class="feedback-card">
-        <div class="feedback-quote">"</div>
-        <p class="feedback-text">A Yuri possui fortes competências técnicas e uma excelente visão estratégica .Possui qualidades enquanto pessoa, fundamentais em qualquer organização. Destaco a sua força, resiliência, empatia, simpatia,excelente capacidade de comunicação,inovação,visão de futuro, estudiosa e determinada. 
-Sem dúvida uma ótima profissional e persona em constante evolução.</p>
-        <div class="feedback-author">
-          <div class="feedback-initials">MG</div>
-          <div>
-            <strong>Jonathan Gomes</strong>
-            <span>Gestor Comercial Aeroflexiveis</span>
-          </div>
-        </div>
-      </div>
-      <div class="feedback-card">
-        <div class="feedback-quote">"</div>
-        <p class="feedback-text">Profissional incrível, ótima dinâmica em equipe, paciência e proatividade. É um grande diferêncial para qualquer equipe em qualquer nível empresarial, pequena, média, grande, nacional ou internacional.
-
-Grande nível técnico e softskills que inclui resiliência, comunicação, adaptação e persistência.</p>
-        <div class="feedback-author">
-          <div class="feedback-initials">OC</div>
-          <div>
-            <strong>Vucamberg Belo dos Santos</strong>
-            <span>Developer | NodeJS | AWS</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ CONTATO ══════════════════════════════════════════════════════ -->
-<section id="contact" class="section" style="background:var(--surface)">
-  <div class="container">
-    <div class="contact-grid">
-      <div class="contact-left reveal">
-        <div class="label" style="margin-bottom:14px">// contato</div>
-        <h2>Vamos trabalhar<br><em>juntos?</em></h2>
-        <p>Aberto a projetos freelance, parcerias técnicas e colaborações que tragam desafios reais.</p>
-        <div class="contact-links">
-          <a href="https://wa.me/5511932270180" target="_blank" class="contact-link">
-            <div class="contact-link-icon">💬</div>
-            WhatsApp — resposta rápida
+        <div class="btn-group">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+            Ver projetos
           </a>
-          <a href="https://linkedin.com" target="_blank" class="contact-link">
-            <div class="contact-link-icon">in</div>
-            LinkedIn
-          </a>
-          <a href="https://github.com/yurikomuta" target="_blank" class="contact-link">
-            <div class="contact-link-icon" style="font-family:var(--mono);font-size:12px;">GH</div>
-            GitHub
+          <a href="#chat" class="btn btn-outline">
+            Conversar com IA
           </a>
         </div>
       </div>
-      <!--<div class="contact-form reveal">
+    </div>
+    <div class="hero-scroll">
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <rect x="1" y="1" width="14" height="22" rx="7" />
+        <circle cx="8" cy="7" r="2" fill="currentColor" />
+      </svg>
+      scroll
+    </div>
+  </section>
+
+  <!-- ═══ SOBRE ═══════════════════════════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid reveal">
+        <div class="about-file">
+          <div class="file-titlebar">
+            <div class="file-dot fd-red"></div>
+            <div class="file-dot fd-yellow"></div>
+            <div class="file-dot fd-green"></div>
+            <span style="margin-left:8px">about_me.json</span>
+          </div>
+          <div class="file-body">
+            <div class="file-line"><span class="key">"nome"</span>: <span class="str">"Yuri Komuta"</span>,</div>
+            <div class="file-line"><span class="key">"localização"</span>: <span class="str">"São Paulo — SP,
+                Brasil"</span>,</div>
+            <div class="file-line"><span class="key">"experiência"</span>: <span class="str">"desde de 2011"</span>,
+            </div>
+            <div class="file-line"><span class="key">"foco"</span>: [</div>
+            <div class="file-line" style="padding-left:16px"><span class="str">"Full Stack"</span>,</div>
+            <div class="file-line" style="padding-left:16px"><span class="str">"IA Aplicada"</span>,</div>
+            <div class="file-line" style="padding-left:16px"><span class="str">"Automação"</span></div>
+            <div class="file-line">],</div>
+            <div class="file-line"><span class="key">"disponível"</span>: <span class="num">true</span>,</div>
+            <div class="file-line"><span class="comment">// aberto para freelance e projetos</span></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="label" style="margin-bottom:14px">// sobre mim</div>
+          <h3>De quem estamos falando?</h3>
+          <p>
+            Desenvolvedora de soluções de IA e Engenheira de Software, com mestrado em andamento em Inteligência
+            Artificial, unindo forte experiência em desenvolvimento de aplicações e facilitação técnica. Minha
+            trajetória combina expertise técnica Python, SQL, R, Power BI, Looker, Cloud, HTML, CSS, JS e no ecossistema
+            de ferramentas de IA (assistentes de código, n8n, LLMs), com foco na criação de provas de conceito (POCs),
+            automação de processos e na escalabilidade de soluções.
+          </p>
+          <p>
+            Especialista em quebrar barreiras de aprendizado tecnológico, utilizando a experiência em docência técnica
+            para criar metodologias de evangelização de IA, capacitando equipes e comprovando impacto através da análise
+            de dados e dashboards analíticos.
+
+          </p>
+          <div class="about-highlight">
+            <div class="about-stat">
+              <span class="desc">Desenvolvendo desde de </span>
+              <span class="num">2011</span>
+            </div>
+            <div class="about-stat">
+              <span class="num">20+</span>
+              <span class="desc">projetos entregues com sucesso</span>
+            </div>
+            <div class="about-stat">
+              <span class="num">∞</span>
+              <span class="desc">vontade de continuar evoluindo</span>
+            </div>
+          </div>
+          <div class="pill-row" style="margin-top:24px">
+            <span class="tag">Atenção aos detalhes</span>
+            <span class="tag">Trabalho em equipe</span>
+            <span class="tag">Resolução de problemas</span>
+            <span class="tag">Comunicação clara</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJETOS ════════════════════════════════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="label" style="margin-bottom:10px">// projetos</div>
+          <h2 class="section-title">Sistemas reais<br>em <em>produção</em></h2>
+        </div>
+        <a href="#" class="btn btn-outline" style="font-size:13px">Ver todos →</a>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Featured project -->
+        <div class="project-card featured reveal">
+          <div class="project-thumb">
+            <div class="project-thumb-gradient">
+              <img src="assets\software-call-center-com-ia.jpg" alt="Image by DC Studio on Magnific">
+            </div>
+            <span style="font-size:3rem;opacity:.15;"></span>
+            <span class="thumb-label">projeto destacado</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">01</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-name">Sistema de Renegociação e Cobranças Ativas</h3>
+            <p class="project-desc"> Uma plataforma web desenvolvida para otimizar processos de cobranças ativas e
+              renegociação de dívidas em nome de instituições financeiras brasileiras. A solução integra uma camada de
+              <b>processamento de linguagem natural </b> com uma arquitetura web tradicional, automatizando e
+              padronizando interações com devedores através de um sistema de diálogo orientado por máquina de estados.
+            </p>
+            <div class="pill-row" style="margin-bottom:16px">
+              <span class="tag">LangChain</span>
+              <span class="tag">Gemini</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">
+                <b><a href="#" target="_blank">Deploy Privado</a></b>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cards menores -->
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <div class="project-thumb-gradient">
+              <img src="assets\saas-concept-collage.jpg" alt="Image by freepik"></a>
+            </div>
+            <span style="font-size:2.5rem;opacity:.15;">🏢</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">02</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3 class="project-name">SaaS de B2B</h3>
+            <p class="project-desc">O sistema substitui a busca manual por um processo automatizado, cruzando dados públicos de empresas locais com o perfil de cliente ideal (ICP) do usuário. A aplicação identifica as empresas com maior probabilidade de conversão baseando-se em proximidade geográfica, setor de atuação (CNAE), porte e situação cadastral, entregando esses contatos através de uma interface Web e integração com WhatsApp.</p>
+            <div class="pill-row">
+              <span class="tag">React Native</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Em Desenvolvimento</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <div class="project-thumb-gradient"></div>
+            <span style="font-size:2.5rem;opacity:.15;">📊</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">03</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-name">Ferramenta de BI com IA</h3>
+            <p class="project-desc">Dashboard analítico que cruza dados operacionais em tempo real com análise por
+              inteligência artificial.</p>
+            <div class="pill-row">
+              <span class="tag">Redash</span>
+              <span class="tag">Node</span>
+              <span class="tag">Motion</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-thumb">
+            <div class="project-thumb-gradient">
+              <img src="assets\artista-plastica-aline-bispo.png" alt="capa-projeto-de-detecção-de-fraudes">
+            </div>
+            <span style="font-size:2.5rem;opacity:.15;">📊</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">04</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3 class="project-name">Multi Artísta Aline Bispo</h3>
+            <p class="project-desc">Orquestração técnica do portfólio da multiartista Aline Bispo, gerenciando a entrega
+              da plataforma em Next.js e Tailwind com infraestrutura na AWS.</p>
+            <div class="pill-row">
+              <span class="tag">Nextjs</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">AWS</span>
+              <span class="tag">
+                <b><a href="https://alinebispo.art/" target="_blank">Deploy</a></b>
+              </span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project-card featured reveal">
+          <div class="project-thumb">
+            <div class="project-thumb-gradient">
+              <img src="assets\fraude.webp" alt="capa-projeto-de-detecção-de-fraudes">
+            </div>
+            <span style="font-size:3rem;opacity:.15;"></span>
+            <span class="thumb-label">projeto destacado</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-number">01</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-name">Detecção de Fraudes com Autoencoder</h3>
+            <p class="project-desc">Detecção de Fraudes transações financeiras com redes neurais com embeddings de dados
+              anômalos.</p>
+            <div class="pill-row" style="margin-bottom:16px">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Numpy</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Seaborn</span>
+              <span class="tag">
+                <b><a href="https://github.com/yurikomuta/autoenconder-detection-fraud" target="_blank">Github</a></b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ATUAÇÃO ══════════════════════════════════════════════════════ -->
+  <section id="atuacao" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="label" style="margin-bottom:10px">// atuação</div>
+          <h2 class="section-title">O que eu <em>faço</em></h2>
+        </div>
+      </div>
+      <div class="atuacao-grid">
+        <div class="atuacao-card reveal">
+          <div class="atuacao-icon">
+            <img src="assets\artificial-inteligence-agenerative-.png" alt="Chatbot icons created by LAFS - Flaticon">
+          </div>
+          <h3>Sistemas com IA</h3>
+          <p>Automação e agentes que executam tarefas reais, integrados ao fluxo do seu negócio.</p>
+        </div>
+        <div class="atuacao-card reveal">
+          <div class="atuacao-icon">
+            <img src="assets\arquitetura.png" alt="Arquitetura ícones criados por Muhammad Ali - Flaticon">
+          </div>
+          <h3>Arquitetura Web</h3>
+          <p>Base técnica sólida para aplicações rápidas, seguras e escaláveis.</p>
+        </div>
+        <div class="atuacao-card reveal">
+          <div class="atuacao-icon">
+            <img src="assets\processo.png" alt="Processo ícones criados por Eucalyp - Flaticon">
+          </div>
+          <h3>Otimização de Processos</h3>
+          <p>Redução de gargalos operacionais com tecnologia aplicada ao problema real.</p>
+        </div>
+        <div class="atuacao-card reveal">
+          <div class="atuacao-icon">
+            <img src="assets\educacao.png" title="Educação ícones criados por amonrat rungreangfangsai - Flaticon">
+          </div>
+          <h3>Formação Técnica</h3>
+          <p>Ensino profissionalizante conectando prática real ao mercado de trabalho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ STACK ════════════════════════════════════════════════════════ -->
+  <section id="stack" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="label" style="margin-bottom:10px">// ferramentas</div>
+          <h2 class="section-title">Stack que uso no <em>dia a dia</em></h2>
+        </div>
+      </div>
+      <div class="stack-tabs reveal" id="stackTabs">
+        <button class="stack-tab active" data-cat="all">Todos</button>
+        <button class="stack-tab" data-cat="lang">Linguagens</button>
+        <button class="stack-tab" data-cat="ai">IA &amp; LLMs</button>
+        <button class="stack-tab" data-cat="auto">Automação</button>
+        <button class="stack-tab" data-cat="infra">Infra &amp; Dados</button>
+      </div>
+      <div class="stack-grid reveal" id="stackGrid">
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>JavaScript
+        </div>
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>TypeScript
+        </div>
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>Python
+        </div>
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>React
+        </div>
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>Next.js
+        </div>
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>Tailwind CSS
+        </div>
+        <div class="stack-item si-lang" data-cat="lang">
+          <div class="si-dot"></div>Node.js
+        </div>
+        <div class="stack-item si-ai" data-cat="ai">
+          <div class="si-dot"></div>OpenAI API
+        </div>
+        <div class="stack-item si-ai" data-cat="ai">
+          <div class="si-dot"></div>Google Gemini
+        </div>
+        <div class="stack-item si-ai" data-cat="ai">
+          <div class="si-dot"></div>LangChain
+        </div>
+        <div class="stack-item si-ai" data-cat="ai">
+          <div class="si-dot"></div>Claude
+        </div>
+        <div class="stack-item si-auto" data-cat="auto">
+          <div class="si-dot"></div>n8n
+        </div>
+        <div class="stack-item si-auto" data-cat="auto">
+          <div class="si-dot"></div>Webhooks
+        </div>
+        <div class="stack-item si-auto" data-cat="auto">
+          <div class="si-dot"></div>REST APIs
+        </div>
+        <div class="stack-item si-infra" data-cat="infra">
+          <div class="si-dot"></div>PostgreSQL
+        </div>
+        <div class="stack-item si-infra" data-cat="infra">
+          <div class="si-dot"></div>Docker
+        </div>
+        <div class="stack-item si-infra" data-cat="infra">
+          <div class="si-dot"></div>Prisma
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ JORNADA ══════════════════════════════════════════════════════ -->
+  <section id="jornada" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="label" style="margin-bottom:10px">// trajetória</div>
+          <h2 class="section-title">Minha <em>Jornada</em></h2>
+        </div>
+      </div>
+      <div class="timeline reveal">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2020</div>
+          <div class="tl-title">Consultoria em TI e Engenharia de Software </div>
+          <div class="tl-company">Autônomo</div>
+          <div class="tl-desc">AI Engineering & LLMs: Desenvolvimento end-to-end de soluções baseadas em IA, incluindo
+            POCs e MVPs com Large Language Models (LLMs).
+            Software Engineering & System Design: Projeto de arquiteturas escaláveis e modulares, com princípios de
+            Clean Architecture, SOLID e Design Patterns, garantindo manutenibilidade e extensibilidade dos sistemas.
+            Backend Development & APIs: Desenvolvimento de serviços em Python e Javascript. Data Engineering &
+            Automation: Construção de pipelines de dados (ETL/ELT), web scraping e processamento automatizado, reduzindo
+            o esforço operacional em até 60% e aumentando a eficiência na entrega de projetos.
+            AI Systems Integration: Integração de modelos de IA com sistemas corporativos, incluindo ingestão de dados,
+            orquestração de pipelines e deploy de aplicações orientadas a eventos.
+            Data Analytics & Business Impact: Desenvolvimento de dashboards analíticos em Power BI e Looker Studio,
+            definição de KPIs e métricas de ROI, suportando decisões orientadas a dados.
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2021-2025</div>
+          <div class="tl-title">Suporte EaD (Voluntariado)</div>
+          <div class="tl-company">PrograMaria</div>
+          <div class="tl-desc">Auxiliei no ensino técnico em linguagens de programação (Python, Javascript) e resolução
+            de problemas em ambientes de desenvolvimento.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2025</div>
+          <div class="tl-title">Técnico de TI (temporário)</div>
+          <div class="tl-company">UERJ-Universidade do Estado do Rio de Janeiro</div>
+          <div class="tl-desc">Atuação em suporte técnico a professores e alunos, gerenciamento de plataformas virtuais,
+            manutenção de equipamentos e sistemas, além de apoio na execução de cursos online e eventos digitais.
+            Experiência em bancos de dados, produção de conteúdos digitais, acompanhamento de aulas e lives e registro
+            acadêmico em sistemas institucionais.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2025 — hoje</div>
+          <div class="tl-title">Instrutor de Formação Profissional III</div>
+          <div class="tl-company">SENAI</div>
+          <div class="tl-desc">Atuando como Instrutor de Ensino Técnico no curso de Desenvolvimento de Sistemas,
+            lecionando disciplinas como Internet das Coisas (C++), Levantamento de Requisitos, Projetos de Software e
+            Desenvolvimento de Software <b>(Python, NodeJS)</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CHAT ═════════════════════════════════════════════════════════ -->
+  <section id="chat" class="section" style="background:var(--surface2)">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="label" style="margin-bottom:10px">// chat com IA</div>
+          <h2 class="section-title">Quer saber mais?<br>Converse com <em>Ada!</em></h2>
+        </div>
+      </div>
+      <div class="chat-wrapper reveal">
+        <div class="chat-header">
+          <div class="chat-avatar">👩‍💻</div>
+          <div class="chat-bot-info">
+            <strong>Ada — Assistente de IA</strong>
+            <span>Online agora</span>
+          </div>
+        </div>
+        <div class="chat-body" id="chatBody">
+          <div class="msg ai">
+            <div class="msg-avatar">👩‍💻</div>
+            <div>
+              <div class="msg-bubble">Olá! Sou a Ada , assistente do portfólio. Posso te contar tudo sobre meu criador —
+                projetos, habilidades, experiências. O que você quer saber? 😊</div>
+              <div class="msg-time">agora</div>
+            </div>
+          </div>
+        </div>
+        <div class="chat-input-row">
+          <input class="chat-input" id="chatInput" type="text" placeholder="Pergunte sobre projetos, habilidades..." />
+          <button class="chat-send" id="chatSendBtn" title="Enviar">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+              <path d="M22 2L11 13M22 2L15 22 11 13 2 9l20-7z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FEEDBACKS ════════════════════════════════════════════════════ -->
+  <section id="feedbacks" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="label" style="margin-bottom:10px">// depoimentos</div>
+          <h2 class="section-title">O que dizem sobre<br>meu <em>trabalho</em></h2>
+        </div>
+      </div>
+      <div class="feedbacks-scroll reveal">
+        <div class="feedback-card">
+          <div class="feedback-quote">"</div>
+          <p class="feedback-text">Tivemos a felicidade de contar com a Yuri na área de Growth, onde seu pensamento
+            criativo e seu conhecimento de soluções inovadoras foram determinantes para vencermos grandes desafios. Com
+            um olhar analítico aguçado, ela se desenvolveu com soltura em diferentes linguagens e ferramentas, como
+            Python, SQL, R, Looker Studio e Power BI, aplicando-as de forma eficaz para organizar os dados e escalar
+            nossas campanhas. Recomendo fortemente a Yuri para qualquer operação que valorize a criatividade combinada
+            com maestria em ciência de dados.</p>
+          <div class="feedback-author">
+            <div class="feedback-initials">VS</div>
+            <div>
+              <strong>Pettersom Paiva</strong>
+              <span>Performance Marketing & Business Development Expert | Innovator in Travel & Commerce Media |
+                Cross-Border Executive | AI-driven Growth enthusiast</span>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-card">
+          <div class="feedback-quote">"</div>
+          <p class="feedback-text">Tive o prazer de trabalhar com a Komuta e a sua contribuição foi fundamental para
+            alavancar o nosso blog com seus conhecimentos de SEO. Otimizou nossos posts para aumentar nosso alcance
+            orgânico e melhorar nossa posição nos mecanismos de busca, com excelentes resultados.
+
+            A Komuta é extremamente inteligente e tem um super conhecimento em muitos assuntos, que vão muito além da
+            tecnologia. Sua curiosidade e sede de aprendizado fazem dela uma profissional completa, sempre atualizada e
+            atenta às melhores práticas do mercado.
+
+            Sua capacidade analítica e disposição para explorar novas soluções, fazem com que ela seja uma peça chave em
+            qualquer equipe de tecnologia!</p>
+          <div class="feedback-author">
+            <div class="feedback-initials">MO</div>
+            <div>
+              <strong>Patrícia Oliveira</strong>
+              <span>Gestão de Projetos | Gestão de Pessoas | Comunicação e Inovação | Analista de Implantação na
+                Confience</span>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-card">
+          <div class="feedback-quote">"</div>
+          <p class="feedback-text">Uma profissional com múltiplos conhecimentos na área de TI, Programação, Marketing
+            Digital, Social Mídia, Plataformas Google, SEO, ou seja, multifacetada. Por ela ter uma visão macro,
+            apresenta soluções rápidas e eficientes. Questões complexas se tornam fáceis e acessíveis. A Yuri também
+            possui uma ótima comunicação e sempre disposta a ajudar seus colegas de trabalho. Trabalhar ao lado da Yuri
+            é aprender constantemente, ela tem uma facilidade e vontade primordial em ensinar e ajudar.</p>
+          <div class="feedback-author">
+            <div class="feedback-initials">VA</div>
+            <div>
+              <strong>Rafael Grou</strong>
+              <span>Gerente de Marketing Sênior | Performance Digital, Trade & Data-Driven Growth</span>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-card">
+          <div class="feedback-quote">"</div>
+          <p class="feedback-text">A Yuri possui fortes competências técnicas e uma excelente visão estratégica .Possui
+            qualidades enquanto pessoa, fundamentais em qualquer organização. Destaco a sua força, resiliência, empatia,
+            simpatia,excelente capacidade de comunicação,inovação,visão de futuro, estudiosa e determinada.
+            Sem dúvida uma ótima profissional e persona em constante evolução.</p>
+          <div class="feedback-author">
+            <div class="feedback-initials">MG</div>
+            <div>
+              <strong>Jonathan Gomes</strong>
+              <span>Gestor Comercial Aeroflexiveis</span>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-card">
+          <div class="feedback-quote">"</div>
+          <p class="feedback-text">Profissional incrível, ótima dinâmica em equipe, paciência e proatividade. É um
+            grande diferêncial para qualquer equipe em qualquer nível empresarial, pequena, média, grande, nacional ou
+            internacional.
+
+            Grande nível técnico e softskills que inclui resiliência, comunicação, adaptação e persistência.</p>
+          <div class="feedback-author">
+            <div class="feedback-initials">OC</div>
+            <div>
+              <strong>Vucamberg Belo dos Santos</strong>
+              <span>Developer | NodeJS | AWS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTATO ══════════════════════════════════════════════════════ -->
+  <section id="contact" class="section" style="background:var(--surface)">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <div class="label" style="margin-bottom:14px">// contato</div>
+          <h2>Vamos trabalhar<br><em>juntos?</em></h2>
+          <p>Aberto a projetos freelance, parcerias técnicas e colaborações que tragam desafios reais.</p>
+          <div class="contact-links">
+            <a href="https://wa.me/5511932270180" target="_blank" class="contact-link">
+              <div class="contact-link-icon">💬</div>
+              WhatsApp — resposta rápida
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-link">
+              <div class="contact-link-icon">in</div>
+              LinkedIn
+            </a>
+            <a href="https://github.com/yurikomuta" target="_blank" class="contact-link">
+              <div class="contact-link-icon" style="font-family:var(--mono);font-size:12px;">GH</div>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <!--<div class="contact-form reveal">
         <div class="label" style="margin-bottom:20px">// envie uma mensagem</div>
         <div class="form-field">
           <label>Nome</label>
@@ -544,20 +645,22 @@ Grande nível técnico e softskills que inclui resiliência, comunicação, adap
 </section>
 
 <!-- ═══ FOOTER ═══════════════════════════════════════════════════════ -->
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <span class="footer-name">© Komuta</span>
-      <span class="footer-copy">Feito com dedicação em São Paulo, Brasil 🌟</span>
-      <div class="footer-socials">
-        <a href="https://github.com/yurikomuta" target="_blank" class="footer-social" title="GitHub">GH</a>
-        <a href="https://www.linkedin.com/in/yurikomuta/" target="_blank" class="footer-social" title="LinkedIn">in</a>
-        <a href="#" class="footer-social" target="_blank" title="Instagram">ig</a>
-      </div>
-    </div>
-  </div>
-</footer>
+        <footer>
+          <div class="container">
+            <div class="footer-inner">
+              <span class="footer-name">© Komuta</span>
+              <span class="footer-copy">Feito com dedicação em São Paulo, Brasil 🌟</span>
+              <div class="footer-socials">
+                <a href="https://github.com/yurikomuta" target="_blank" class="footer-social" title="GitHub">GH</a>
+                <a href="https://www.linkedin.com/in/yurikomuta/" target="_blank" class="footer-social"
+                  title="LinkedIn">in</a>
+                <a href="#" class="footer-social" target="_blank" title="Instagram">ig</a>
+              </div>
+            </div>
+          </div>
+        </footer>
 
-<script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
+
 </html>
