@@ -42,7 +42,7 @@
     default: [
       "Esse é um portfólio incrível, criado para demonstrar os projetos reais e habilidades da Yuri em IA, Engenharia de Software e Dados! Tem alguma área específica que quer explorar?",
       "Posso te contar sobre os projetos de IA, a stack técnica, a jornada profissional, formação ou publicações da Yuri... o que você prefere?",
-      "Ótima pergunta! A Yuri atua desde 2011 na área de tecnologia,começou com marketing digital quando os primeiros passos do Facebook, e hoje atua com grande foco em IA, Engenharia de Software e Dados. Quer saber mais detalhes?",
+      "Ótima pergunta! A Yuri atua desde 2011 na área de tecnologia,começou com desenvolvimento de lojas virtuais e marketing digital, e hoje atua com grande foco em IA, Engenharia de Software e Dados. Quer saber mais detalhes?",
     ],
     projetos: "A Yuri tem projetos de ponta, como Sistemas de Detecção de Fraudes usando Redes Neurais e Machine Learning, além de um Sistema de Renegociação com IA usando LangChain e Google Gen AI. Qual te interessou mais?",
     stack: "A stack principal inclui Python, JavaScript, NodeJS, SQL, além de bibliotecas e frameworks de IA/Dados como TensorFlow, Keras, Scikit-Learn, Pandas e LangChain. E ferramentas como Power BI e Looker Studio!",
